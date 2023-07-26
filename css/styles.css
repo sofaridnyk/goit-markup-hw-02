@@ -10,7 +10,7 @@
   --light-background-color: #f4f4fd;
 }
 body {
-  font-family: "Roboto", "Raleway" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   background-color: #fff;
   color: var(--primary-slate-color);
@@ -22,35 +22,16 @@ body {
 button {
   cursor: pointer;
 }
-.link-studio {
-  text-decoration: none;
-  color: var(--active-link-color);
-  font-family: "Roboto";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.link-studio .active,
-.link-studio .hover,
-.link-studio .focus {
-  color: var(--active-link-color);
-}
 
 .link-contacts {
-  text-decoration: none;
   color: var(--primary-navyblue-color);
-  font-family: "Roboto";
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.link-contacts .active,
-.link-contacts .hover,
-.link-contacts .focus {
+.link-contacts:hover,
+.link-contacts:focus {
   color: var(--active-link-color);
 }
 a span {
@@ -62,24 +43,19 @@ a span {
   color: var(--primary-navyblue-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.166;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .link-address {
   color: var(--primary-slate-color);
-  font-family: "Roboto";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
-.link-address .hover,
-.link-address .focus,
-.link-address .active {
+.link-address:hover,
+.link-address:focus {
   color: var(--active-link-color);
 }
 .hero-image {
@@ -87,33 +63,27 @@ a span {
 }
 .hero-title {
   color: var(--primary-white-color);
-  font-family: "Roboto";
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
 .hero-button {
   background-color: var(--primary-accent-color);
   color: var(--primary-white-color);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.hero-button .hover,
-.hero-button .focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--active-link-color);
 }
 .advantages-title {
   color: var(--primary-navyblue-color);
-  font-family: "Roboto";
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -121,7 +91,6 @@ a span {
 .text {
   color: var(--primary-slate-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -129,11 +98,9 @@ a span {
 .section-title {
   color: var(--primary-navyblue-color);
   text-align: center;
-  font-family: "Roboto";
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -142,9 +109,7 @@ a span {
 }
 .list-title {
   color: var(--primary-navyblue-color);
-  font-family: "Roboto";
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -154,9 +119,7 @@ a span {
 }
 .footer-text {
   color: var(--light-background-color);
-  font-family: "Roboto";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -166,8 +129,27 @@ a span {
   color: var(--light-background-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.166;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.link {
   text-decoration: none;
+}
+
+.buttons {
+  background-color: var(--light-background-color);
+  color: var(--primary-accent-color);
+}
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--active-link-color);
+  color: var(--light-background-color);
+}
+.subtitle {
+  color: var(--primary-navyblue-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
