@@ -47,6 +47,9 @@ a span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.footer span {
+  color: #f4f4fd;
+}
 .address {
   font-style: normal;
 }
@@ -115,6 +118,7 @@ a span {
 .images {
   background-color: #ffffff;
 }
+
 .list-title {
   color: var(--primary-navyblue-color);
   font-size: 20px;
