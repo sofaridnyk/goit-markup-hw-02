@@ -70,6 +70,7 @@ a span {
   text-align: center;
 }
 .hero-button {
+  font-family: inherit;
   background-color: var(--primary-accent-color);
   color: var(--primary-white-color);
   font-size: 16px;
@@ -138,8 +139,13 @@ a span {
 }
 
 .buttons {
+  font-family: inherit;
   background-color: var(--light-background-color);
   color: var(--primary-accent-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .buttons:hover,
 .buttons:focus {
