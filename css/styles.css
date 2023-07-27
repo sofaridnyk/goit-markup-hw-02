@@ -115,10 +115,7 @@ a span {
 .team {
   background-color: var(--light-background-color);
 }
-.team-list {
-  background-color: #ffffff;
-}
-.images {
+.card {
   background-color: #ffffff;
 }
 
